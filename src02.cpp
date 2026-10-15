@@ -6,7 +6,7 @@ int main(){
     std::cin >> n;
     for (int k = n; k >= 1; k-- ){
         for (int t = 0; t < k; ++t){
-            std::cout << '*';
+            std::cout << '&';
         }
         std::cout << std::endl;
     }
